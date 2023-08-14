@@ -15,18 +15,9 @@
 python manage.py loaddata news.json
 ```
 
-## Создание репозитория
-1. Сделать себе репозиторий, используя данный шаблон.  
-  Для этого необходимо нажать кнопку "Use this template" и выбрать пункт "Create a new repository".  
-  ![image](https://user-images.githubusercontent.com/14962819/235599080-2819c72b-3161-48fe-926d-91c289941c20.png)
-  
-1. Заполнить поля **Repository name** и **Description** и нажать кнопку "Create repository from template".  
-  ![image](https://user-images.githubusercontent.com/14962819/235599367-6b6025e2-5ceb-4b57-87f4-8c3a2ac18a5b.png)
-
 
 ## Как работать с репозиторием
-Чтобы начать выполнение задания необходимо скопировать url вашего репозитория и склонировать его себе (обратите внимание, что вы клонируете именно ваш репозиторий, а не исходный шаблон!).  
-  ![image](https://user-images.githubusercontent.com/14962819/235600053-de6be309-56d5-4c5f-adc3-d466887962f6.png)
+Чтобы начать выполнение задания необходимо скопировать url репозитория и склонировать его себе.
   
 ### Создайте виртуальное окружение
 
@@ -78,12 +69,6 @@ python -m pip install --upgrade pip
 ```bash
 pip install -r requirements.txt
 ```
-
-#### End of Support зависимостей
-
-Среди зависимостей выбраны LTS-версии зависимостей.
-Для Django выбрана версия 3.2, extended support которой
-[заканчивается](https://endoflife.date/django) 1 апреля 2024 года.
 
 ### Применение миграций
 
