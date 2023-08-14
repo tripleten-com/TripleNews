@@ -30,7 +30,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'yanews.urls'
+ROOT_URLCONF = 'triplenews.urls'
 
 TEMPLATES = [
     {
@@ -48,7 +48,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'yanews.wsgi.application'
+WSGI_APPLICATION = 'triplenews.wsgi.application'
 
 
 DATABASES = {
@@ -62,9 +62,9 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = []
 
 
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en-US'
 
-TIME_ZONE = 'Europe/Moscow'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
