@@ -2,12 +2,12 @@
 
 ## Description
 Вот краткий перечень функциональных возможностей проекта triple_news:
-- На главной странице проекта отображаются 10 последних новостей. Главная страница доступна любому пользователю. Новости отображаются в сокращённом виде (видно только первые 15 слов).
-- У каждой новости есть своя страница с полным текстом новости; там же отображаются и комментарии пользователей.
-- Любой пользователь может самостоятельно зарегистрироваться на сайте.
-- Залогиненный (авторизованный) пользователь может оставлять комментарии, редактировать и удалять свои комментарии.
-- Если к новости есть комментарии — их количество отображается на главной странице под новостью.
-- В коде проекта есть список запрещённых слов, которые нельзя использовать в комментариях, например, «редиска» и «негодяй».
+- The project's main page displays the 10 latest news posts. The main page is available to all users. News is displayed in a curtailed form (only the first 15 words are visible).
+- Each piece of news has its own page with the full text; user comments are also displayed there.
+- Any user can independently register on the website.
+- A logged in (authorized) user can leave, edit, and delete their own comments.
+- If there are comments to a news post, the number of comments is displayed on the main page under the post.
+- The project code contains a list of forbidden words that cannot be used in comments, such as "rascal" and "scoundrel."
 
 
 Для загрузки заготовленных новостей после применения миграций выполните команду:
@@ -16,13 +16,13 @@ python manage.py loaddata news.json
 ```
 
 
-## Как работать с репозиторием
-Чтобы начать выполнение задания необходимо скопировать url репозитория и склонировать его себе.
+## How to Work With the Repository
+To begin your task, copy your repository URL and clone it.
   
-### Создайте виртуальное окружение
+### Create a virtual environment
 
-1. Запустите редактор Visual Studio Code и через меню «*Файл» / «Открыть директорию»* откройте папку *Dev/triple_news/*. 
-2. Запустите терминал в VS Code, удостоверьтесь, что вы работаете из директории *triple_news/* (если вы работаете под Windows, убедитесь, что в терминале запущен Git Bash, а не PowerShell или что-нибудь ещё), и выполните команду:
+1. Open Visual Studio Code, go to "File" / "Open Folder," and open *Dev/triple_news/*. 
+2. Launch the terminal in VS Code and make sure you work from the *triple_news/* directory. If you use Windows, make sure Git Bash runs in the terminal, and not through PowerShell or anything else. Run this command:
 - Linux/macOS
     
     ```bash
@@ -35,11 +35,11 @@ python manage.py loaddata news.json
     python -m venv venv
     ```
    
-В директории *triple_news/* будет развёрнуто виртуальное окружение и появится папка `venv`, в которой будут храниться все зависимости проект.
+The virtual environment will be deployed in the *triple_news/* directory. The `venv` folder will appear there too and will store all the project dependencies. The file structure will look like this:
 
 
-### Активация виртуального окружения
-в терминале перейдите в корневую директорию проекта *Dev/triple_news/* и выполните команду:
+### Activating the virtual environment
+in the console, go to the root directory of the project *Dev/triple_news/* and run this command:
 - Linux/macOS
     
     ```bash
@@ -53,9 +53,9 @@ python manage.py loaddata news.json
     ```
     
 
-Теперь все команды в терминале будут предваряться строкой `(venv)`.
+All commands in the terminal will now be preceded by the `(venv)` string.
 
-💡 Все дальнейшие команды в терминале надо выполнять с активированным виртуальным окружением.
+💡 All the following console commands must be run with the working virtual environment.
 
 Обновите pip:
 
@@ -63,29 +63,29 @@ python manage.py loaddata news.json
 python -m pip install --upgrade pip
 ```
 
-### Установка зависимостей из файла *requirements.txt*:
-Находясь в папке *Dev/triple_news/*, выполните команду:
+### Install the dependencies from the *requirements.txt*:
+Run the following command while you are in the *Dev/triple_news/* folder:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Применение миграций
+### Using migrations
 
     
-В директории с файлом manage.py выполните команду: 
+In the directory with the manage.py file, run the command:
 
 ```bash
 python manage.py migrate
 ```
 
-### Запуск проекта в dev-режиме
+### Running the project in dev mode
 
     
-В директории с файлом manage.py выполните команду: 
+In the directory with the manage.py file, run the command:
 
 ```bash
 python manage.py runserver
 ```
 
-В ответ Django сообщит, что сервер запущен и проект доступен по адресу [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+In response to the command, Django will report that the server is running and the project is available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
