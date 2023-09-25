@@ -7,7 +7,7 @@
       <ul class="nav nav-pills">
         {% if user.is_authenticated %}
           <li class="align-self-center">
-            Пользователь: {{ user.username }}
+            The user: {{ user.username }}
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'users:logout' %}">Выйти</a>
