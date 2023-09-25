@@ -9,7 +9,7 @@ from .models import Comment, News
 
 
 class NewsList(generic.ListView):
-    """Список новостей."""
+    """News list."""
     model = News
     template_name = 'news/home.html'
 

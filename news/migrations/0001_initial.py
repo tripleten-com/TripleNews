@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             options={
                 'ordering': ('-date',),
                 'verbose_name': 'Новость',
-                'verbose_name_plural': 'Новости',
+                'verbose_name_plural': 'News',
             },
         ),
         migrations.CreateModel(
