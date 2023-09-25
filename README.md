@@ -57,7 +57,7 @@ All commands in the terminal will now be preceded by the `(venv)` string.
 
 💡 All the following console commands must be run with the working virtual environment.
 
-Обновите pip:
+Refresh pip:
 
 ```bash
 python -m pip install --upgrade pip
