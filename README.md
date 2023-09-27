@@ -1,7 +1,7 @@
 # triple_news
 
 ## Description
-Вот краткий перечень функциональных возможностей проекта triple_news:
+Here is a brief list of the functional features of the triple_news project:
 - The project's main page displays the 10 latest news posts. The main page is available to all users. News is displayed in a curtailed form (only the first 15 words are visible).
 - Each piece of news has its own page with the full text; user comments are also displayed there.
 - Any user can independently register on the website.
@@ -10,7 +10,7 @@
 - The project code contains a list of forbidden words that cannot be used in comments, such as "rascal" and "scoundrel."
 
 
-Для загрузки заготовленных новостей после применения миграций выполните команду:
+To load prepared news after applying migrations, execute this command:
 ```bash
 python manage.py loaddata news.json
 ```
