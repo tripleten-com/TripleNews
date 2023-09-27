@@ -6,9 +6,9 @@ from .models import Comment
 BAD_WORDS = (
     'rascal',
     'scoundrel',
-    # Дополните список на своё усмотрение.
+    # Add to the list at your discretion.
 )
-WARNING = 'Не ругайтесь!'
+WARNING = 'Don\'t argue!'
 
 
 class CommentForm(ModelForm):
@@ -18,7 +18,7 @@ class CommentForm(ModelForm):
         fields = ('text',)
 
     def clean_text(self):
-        """Не позволяем ругаться в комментариях."""
+        """We do not allow swearing in the comments."""
         text = self.cleaned_data['text']
         lowered_text = text.lower()
         for word in BAD_WORDS:

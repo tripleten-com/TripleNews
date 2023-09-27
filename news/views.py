@@ -15,9 +15,9 @@ class NewsList(generic.ListView):
 
     def get_queryset(self):
         """
-        Выводим только несколько последних новостей.
+        We only display the latest news.
 
-        Их количество определяется в настройках проекта.
+        Their quantity is determined in the project setup.
         """
         return self.model.objects.prefetch_related(
             'comment_set'
@@ -79,7 +79,7 @@ class NewsDetailView(generic.View):
 
 
 class CommentBase(LoginRequiredMixin):
-    """Базовый класс для работы с комментариями."""
+    """Base class for working with comments."""
     model = Comment
 
     def get_success_url(self):
@@ -89,16 +89,16 @@ class CommentBase(LoginRequiredMixin):
         ) + '#comments'
 
     def get_queryset(self):
-        """Пользователь может работать только со своими комментариями."""
+        """The user can only work with their own comments."""
         return self.model.objects.filter(author=self.request.user)
 
 
 class CommentUpdate(CommentBase, generic.UpdateView):
-    """Редактирование комментария."""
+    """Editing a comment."""
     template_name = 'news/edit.html'
     form_class = CommentForm
 
 
 class CommentDelete(CommentBase, generic.DeleteView):
-    """Удаление комментария."""
+    """Deleting the comment."""
     template_name = 'news/delete.html'

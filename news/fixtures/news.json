@@ -3,56 +3,56 @@
 		"model": "news.news",
 		"fields": {
 			"date": "2022-11-01",
-			"title": "Блог Wordicum вышел на первое место по популярности",
-			"text": "Сенсационные новости на просторах Интернета. Недавно появившийся блог Wordicum уже завоевал первые места по популярности среди всех текстовых блогов мира. Поздравляем создателей!"
+			"title": "The Wordicum blog came out on top in popularity",
+			"text": "Sensational news on the internet. The recently launched Wordicum blog has already become the most popular blog worldwide. Congratulations to the creators!"
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-10-01",
-			"title": "Новости мобильной разработки",
-			"text": "Студенты создали мобильное приложение, которое, будучи запущенным в закрытом помещении, способно определить, спит ли кто-нибудь в комнате или нет. По статистике, в 99% случаев приложение выдает неправильный результат."
+			"title": "Mobile development news",
+			"text": "Students have created a mobile application that, when launched in a closed room, is able to determine whether anyone in the room is asleep or not. However, according to the research, the application gives an incorrect result 99% of the time."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-09-01",
-			"title": "Приз за рекурсию",
-			"text": "Выпускники Практикума победили в конкурсе на самый страшный рассказ о рекурсии. При награждении победителям вручили коробки. Внутри была коробка поменьше, в ней - ещё меньше. И так в каждой коробке. Они открывали коробки, коробки, а там были всё новые и новые коробки. В первой коробке лежала рекурсия."
+			"title": "Recursion Prize",
+			"text": "Tripleten graduates won the competition for the scariest story about recursion. The winners were presented with boxes at the award ceremony. Inside there was a smaller box, and within it — an even smaller one. They kept opening boxes, but there was always a smaller box inside. What do expect for a recursion prize?"
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-08-01",
-			"title": "Не только Boston Dynamics",
-			"text": "Студенты Яндекс Практикума изобрели робота для поиска потерянных ключей. Робот ищет ключи под ближайшими фонарями, опрашивает свидетелей и делает вывод, что ключи не найти."
+			"title": "Not just Boston Dynamics",
+			"text": "Students of Tripleten invented a robot to search for lost keys. The robot looks for keys under the nearest set of objects, interrogates anybody present, then concludes that the keys cannot be found."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-07-01",
-			"title": "Обмен снами",
-			"text": "Выпускники бэкенд-факультета изобрели новую технологию: теперь они могут посылать свои сны своим друзьям. Основой для разработки стал фитнес-трекер Runaway, который обладает всеми необходимыми датчиками для считывания снов. С помощью приложения, написанного на Python, сны обрабатываются и пересылаются другому пользователю. Пока что приложение может обрабатывать только сны Python-разработчиков."
+			"title": "Dream Exchange",
+			"text": "Graduates of the back-end department have invented a new technology: now they can send their dreams to their friends. It was based on the Runaway fitness tracker, which has all the necessary sensors for reading dreams. With the help of an application written in Python, dreams are processed and forwarded to another user. For now, the application can only process the dreams of Python developers."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-06-01",
-			"title": "Главное - не результат, а участие",
-			"text": "Студенты-разработчики получили приз зрительских антипатий в конкурсе «Где я» в номинации «Лучший маршрут» секции «Онлайн-обучение». Для участия в конкурсе студенты подготовили маршрут «Кровать-холодильник-работа-холодильник-компьютер-холодильник-компьютер-кровать». Маршрут рассчитан на несколько месяцев и совершенно не подходит для онлайн-обучения новой профессии. Авторы маршрута получили утешительный приз: два часа сна."
+			"title": "It's the taking part that counts",
+			"text": "Student developers received the Audience Thumbs-Down award at the "Where Am I?" competition in the "Best Route of Online Education" category. For the contest, the students prepared a route for reaching career success: "Bed-Fridge-Work-Fridge-Computer-Fridge-Computer-Bed." The route was designed as a continuous loop for students to undertake for several months, but experiments showed that this wasn't enough to learn a new profession online. At least the creators received the consolation prize of two hours of sleep."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-05-01",
-			"title": "Товары Шредингера",
-			"text": "На практических занятиях студенты протестировали онлайн-магазин спортивных товаров и выяснили, что не все товары в этом магазине можно протестировать."
+			"title": "Schrödinger's Cart",
+			"text": "In practical classes, students tested an online sports goods store and found that not all products could be tested."
 		}
 	},
 	{
