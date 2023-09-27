@@ -59,96 +59,96 @@
 		"model": "news.news",
 		"fields": {
 			"date": "2022-04-01",
-			"title": "Новый сайт корпорации ACME",
-			"text": "Сайт корпорации ACME стал самым посещаемым за всю историю существования корпорации. Но, к сожалению, он перестал работать, поэтому его перенесли на другой сервер. Все сотрудники работают над возобновлением работы сайта; следите за новостями."
+			"title": "New ACME Corporation website",
+			"text": "The ACME corporation's website has become the most visited in the entire history of the corporation. But, unfortunately, it stopped working, so it was moved to another server. All employees are working on restoring the website; stay tuned for updates."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-03-01",
-			"title": "Заслуженная награда",
-			"text": "Сервис TripleNote номинирован на премию «Лучший сервис TripleNote». По итогам опроса, этот сервис был признан лучшим среди сервисов для заметок с названием TripleNote."
+			"title": "The well-deserved award",
+			"text": "TripleNote service is nominated for the 'Best TripleNote Service' award. Based on the survey results, this service was recognized as the best among all note-taking services called TripleNote."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-02-01",
-			"title": "Сайт АСМЕ снова заработал",
-			"text": "Теперь на сайте корпорации можно посмотреть все фильмы, которые вышли за последний год; посмотреть все сериалы, которые были сняты за последний год; прочитать все статьи, которые написаны за последний месяц; вспомнить всё, что вам понравилось и не понравилось в том году, в котором вы родились."
+			"title": "The ACME website is up and running again",
+			"text": "Now you can watch all last-year's movies and TV series on their website, read all articles written in the last month, and review everything you liked and disliked in the year you were born."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2022-01-01",
-			"title": "Очередная награда для Runaway",
-			"text": "Фитнес-трекер Runaway получил награду в категории «Лучший фитнес-трекер с голосовым управлением». Ему можно сказать «Я пробежал пять километров» — и он поверит на слово."
+			"title": "Another award for Runaway",
+			"text": "The Runaway fitness tracker received an award in the category of 'Best voice-controlled fitness tracker.' You can tell the tracker, 'I ran five kilometers,' and it will take your word for it."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-12-01",
-			"title": "Машина времени снова не работает",
-			"text": "Команда разработчиков в сотрудничестве с физиками продолжает отлаживать машину времени. Это была бы идеальная машина, но проблема в том, что для перемещения в прошлое нужно нажать на кнопку «Назад», но чтобы вернуться в будущее, нужно нажать кнопку «Вперед». Операторы машины постоянно путаются."
+			"title": "The time machine still doesn't work",
+			"text": "The development team, in collaboration with physicists, continues to debug the time machine. This would be the perfect car, but the problem is that to travel back in time you have to press the "Back" button, and to return to the future, you have to press the "Forward" button. It's too confusing for the machine operators."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-11-01",
-			"title": "Тайм-менеджмент",
-			"text": "Студенты разработали метод защиты от горящего дедлайна. Они просто вешают на стену лист бумаги, на котором написано «Дедлайн - это обман»."
+			"title": "Time management",
+			"text": "Students have developed a method to protect against burning deadlines. They simply hang a piece of paper on the wall that reads: "Deadlines are liars.""
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-10-01",
-			"title": "Новые разработке на потребительском рынке",
-			"text": "Корпорация АСМЕ предлагает вниманию посетителей уникальную технологию, которая поможет сэкономить на покупке новой одежды. Достаточно просто надеть штаны, которые вы купили неделю назад, и они будут вам очень к лицу."
+			"title": "New developments in the consumer market",
+			"text": "ACME Corporation offers visitors a unique technology to help them save when buying new clothes. It finds the same stuff in the shops that you bought previously, so it's bound to suit you well."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-09-01",
-			"title": "Генератор дедлайнов TripleNote",
-			"text": "Портал TripleNote предлагает новый сервис — автоматический генератор дедлайнов. Любой пользователь сможет подключить его совершенно бесплатно — и для каждой его заметки будет установлен жёсткий дедлайн. При срыве трёх дедлайнов пользователь будет заблокирован."
+			"title": "The TripleNote Deadline Generator",
+			"text": "The TripleNote portal offers a new service: an automatic deadline generator. Any user will be able to connect to it completely free of charge, and a strict deadline will be set for each of his notes. If three deadlines are missed, the user will be blocked."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-08-01",
-			"title": "Блог Wordicum награждён премией",
-			"text": "Сообщество разработчиков наградило создателей блога Wordicum премией «Лучшая идея». Награда присуждена авторам проекта за серию видео, в которых люди пытаются что-либо сделать, но у них ничего не получается. И эти видео не получились."
+			"title": "Wordicum blog wins award",
+			"text": "The developer community awarded the creators of the Wordicum blog with the 'Best Idea' award. The award was given to the project authors for a series of videos in which people attempt to do something but fail. They all end in hilarious fashion."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-07-01",
-			"title": "Обновление линейки Runaway",
-			"text": "Новая модель фитнес-трекера Runaway X3 Pro скоро выйдет на этап бета-тестирования. Разработчики гаджета анонсируют такие функции: будильник с вибрацией, трекер сна, счетчик калорий, шагомер, таймер, калькулятор калорий, счетчик пройденного расстояния, отслеживание и шеринг снов, чтение и запись мыслей. Трекер способен выдержать падение с высоты до 10 метров на асфальт под бульдозер."
+			"title": "Runaway model update",
+			"text": "The new fitness tracker model, Runaway X3 Pro, will soon be released for beta testing. The gadget developers have announced the following features: a vibrating alarm clock, sleep tracker, calorie counter, pedometer, timer, calorie calculator, distance tracker, dream tracking and sharing, thought reading and recording. The tracker can withstand a fall from a height of up to 10 meters onto asphalt and is bulldozer-proof."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-06-01",
-			"title": "Найди себя на TripleNews",
-			"text": "Новостной агрегатор TripleNews разрабатывает сервис «Найди меня»: пользователь вводит в форму поиска «Где я» — и в сводке новостей видит, кто, где и зачем его ищет."
+			"title": "Find yourself on TripleNews",
+			"text": "News aggregator TripleNews is developing a service called 'Find Me': a user types 'Where am I' into the search form, and the news summary details who is looking for them, where people are searching for them, and why they're doing it."
 		}
 	},
 	{
 		"model": "news.news",
 		"fields": {
 			"date": "2021-05-01",
-			"title": "Три миллиарда пользователей",
-			"text": "Сервис TripleNote расширил охват пользователей до 3 миллиардов. Это случилось после появления нового сервиса Share You Deadline: теперь все зарегистрированные пользователи могут видеть чужие заметки и выполнять чужие дела."
+			"title": "Three billion users",
+			"text": "The TripleNote service has expanded its user base to 3 billion people. This was achieved after the launch of the new Share You Deadline service, where all registered users can see other people's notes and do other people's tasks."
 		}
 	}
 ]

@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'ordering': ('-date',),
-                'verbose_name': 'Новость',
+                'verbose_name': 'News',
                 'verbose_name_plural': 'News',
             },
         ),
