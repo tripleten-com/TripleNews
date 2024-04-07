@@ -12,7 +12,7 @@ Here is a brief list of the functional features of the triple_news project:
 
 To load prepared news after applying migrations, execute this command:
 ```bash
-python manage.py loaddata news.json
+python manage.py loaddata db.json
 ```
 
 
